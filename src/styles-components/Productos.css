@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&family=Roboto:wght@100&display=swap');
+
+
+.productos-main-container {
+  padding: 30px;
+  margin: 0px;
+  background: linear-gradient(188deg,#052659,#7da0ca,#c1e8ff);
+  background-size: 180% 180%;
+  animation: gradient-animation 6s ease infinite;
+  
+}
+
+.productos-main-container h1,
+h2 {
+  text-align: center;
+  color: #b8d4ff;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.flores-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  flex-wrap: wrap;
+
+}
+
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

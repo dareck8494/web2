@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&family=Roboto:wght@100&display=swap');
+
+.servicios-main-container {
+  padding: 20px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:#7DA0CA;
+  height: 850px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  
+}
+
+.servicio-title {
+  font-size: 40px;
+  color:black;
+}
+
+.servicio-subtitle {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 70px;
+}
+
+.servicios-button {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color:navy;
+  font-size: 20px;
+  color: white;
+  margin-top: 50px;
+  position: relative;
+  font-family: 'Josefin Sans', sans-serif;
+  
+}
+
+.servicios-features {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 30px;
+}
+
+.servicio-itself {
+  background-color: rgb(255, 255, 255);
+  color:#1160d6;
+  padding: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+  border-radius: 20px;
+  
+}
+
+.servicio-title {
+  font-size: 35px;
+}
+
+@media (min-width: 300px) and (max-width: 610px) {
+  .servicios-main-container {
+    height: 1200px;
+  }
+
+  .servicios-features {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .servicio-title {
+    font-size: 25px;
+  }
+}

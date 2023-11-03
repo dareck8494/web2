@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&family=Roboto:wght@100&display=swap');
+
+.form-flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Josefin Sans', sans-serif;
+  height: 700px;
+  background: linear-gradient(-45deg, #6252ee, rgb(2, 25, 41), #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+  backdrop-filter: blur(30px);
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+h1{
+  color:wheat;
+
+}
+
+
+.form-main-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 550px;
+  background-color:#021024;
+  border-radius: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 10px 20px;
+}
+
+.form-main-container > label {
+  margin-bottom: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.form-main-container > input {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  width: 70%;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.form-button {
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 0px;
+  background-color: #C1E8FF;
+  color: #021024;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 20px;
+}
+
+@media (min-width: 300px) and (max-width: 610px) {
+  .form-flex-container {
+    padding: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+}

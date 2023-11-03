@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&family=Roboto:wght@100&display=swap');
+
+.hero-img {
+  max-width: 300px;
+  margin-left: 20px;
+}
+
+.hero-main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 500px;
+  padding: 0px 30px;
+  background-color: #021024;
+}
+
+.hero-left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 300px;
+}
+
+.hero-left-container h1 { 
+  font-size: 40px;
+  color: rgb(253, 253, 253);
+  
+  
+}
+
+.hero-button {
+  width: 300PX;
+  border-radius: 15px;
+  border: none;
+  padding: 10px;
+  font-size: 36px;
+  background-color: #C1E8FF;
+  color:#052659;
+  
+}
+
+@media (min-width: 300px) and (max-width: 610px) {
+  .hero-main-container {
+    flex-direction: column;
+    height: 700px;
+  }
+
+  .hero-img {
+    position: relative;
+    bottom: 40px;
+    max-width: 250px;
+    border-radius: 20px;
+  }
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&family=Roboto:wght@100&display=swap');
+
+.logo-socio {
+  width: 90px;
+}
+
+.nosotros-main-container {
+  position: relative;
+  padding: 10px 30px 10px 10px;
+  display: flex;
+  align-items: center;
+  height: 700px;
+  color: white;
+  background-color:#101024;
+}
+
+
+
+.nosotros-img {
+  width:240px;
+  height: auto
+}
+
+@media (min-width: 300px) and (max-width: 610px) {
+  .nosotros-main-container {
+    flex-direction: column;
+    height: 900px;
+    color : rgb(255, 255, 255);
+    margin-right: 10px;
+  }
+
+
+  .logo-socio {
+    width: 60px;
+    margin-right: 20px;
+      
+  }
+}
+
